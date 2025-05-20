@@ -1,3 +1,3 @@
 git add -A
-git commit -m "add sliders"
+git commit -m "add images and menu favicon"
 git push
