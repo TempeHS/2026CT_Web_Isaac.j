@@ -1,3 +1,3 @@
 git add -A
-git commit -m "add images and menu favicon"
+git commit -m "add images and card"
 git push
