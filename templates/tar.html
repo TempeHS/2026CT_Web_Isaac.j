@@ -1,14 +1,30 @@
 {% extends 'layout.html' %} {% block content %}
+
+<style>
+  @font-face {
+    font-family: "Hakubo";
+    src: url("/static/fonts/Hakubo.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  h1 {
+    font-family: "Hakubo", sans-serif;
+  }
+</style>
 <div class="container">
-  <div class="row">Tools And Resourses</div>
-  <iframe
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105938.12676698944!2d151.09042949862248!3d-33.92655599472143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12b1ce319715df%3A0x8ed3b438ab072692!2sLEGO%20Certified%20Store%20-%20Sydney%20Domestic!5e0!3m2!1sen!2sau!4v1748832506805!5m2!1sen!2sau"
-    width="600"
-    height="450"
-    style="border: 0"
-    allowfullscreen=""
-    loading="lazy"
-    referrerpolicy="no-referrer-when-downgrade"
-  ></iframe>
+  <div class="row">
+    <h1>Tools And Resourses</h1>
+  </div>
 </div>
+
+<iframe
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105938.03392621751!2d151.09042950716244!3d-33.92663064349602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12b1ce319715df%3A0x8ed3b438ab072692!2sLEGO%20Certified%20Store%20-%20Sydney%20Domestic!5e0!3m2!1sen!2sau!4v1748915041811!5m2!1sen!2sau"
+  width="600"
+  height="450"
+  style="border: 0"
+  allowfullscreen=""
+  loading="lazy"
+  referrerpolicy="no-referrer-when-downgrade"
+></iframe>
+
 {% endblock %}
