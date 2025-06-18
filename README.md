@@ -1,3 +1,3 @@
 git add -A
-git commit -m "add hakubo text in navbar and uisemi ttf file"
+git commit -m "add images"
 git push
