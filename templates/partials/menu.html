@@ -9,6 +9,29 @@
     background-color: #22223b;
   "
 >
+  <style>
+    @font-face {
+      font-family: "Hakubo";
+      src: url("/static/fonts/Hakubo.ttf") format("truetype");
+      font-weight: normal;
+      font-style: normal;
+    }
+    .navbar-brand,
+    .nav-link {
+      font-family: "Hakubo", sans-serif, "UiSemi";
+      font-size: 25px;
+      color: #f8551c;
+      transition: color 0.2s;
+    }
+    .nav-link.active {
+      color: #f8551c !important;
+      background-color: transparent !important;
+    }
+    .nav-link:hover {
+      color: #ff7b4a !important;
+      background-color: transparent !important;
+    }
+  </style>
   <a class="navbar-brand my-3 ms-3" href="index.html">
     <img src="static/images/logo.png" />Lost In Tokyo
   </a>
